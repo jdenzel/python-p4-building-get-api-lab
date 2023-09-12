@@ -38,7 +38,6 @@ def bakeries():
 
     return response
     
-
 @app.route('/bakeries/<int:id>')
 def bakery_by_id(id):
 
